@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="350dp"
+    android:layout_height="350dp"
+    android:layout_gravity="center"
+    android:padding="5dp"
+    android:background="#80c5cae9"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@style/NoActiobBar">
+
+    <TextView
+
+        android:id="@+id/textviewcloseid"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:textColor="@color/white"
+        android:text="X"
+        android:textStyle="bold"
+        android:layout_gravity="end"
+        android:gravity="center"
+        android:background="@drawable/popupclosebackground"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="15dp"
+
+            android:src="@drawable/ic_coming_soon"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:text="We are working on more awesome projects like CITEXT."
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            />
+        
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+        
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="80dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@color/bluedark">
+
+            <Button
+                android:id="@+id/popupscanbuttonid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Our Projects"
+                android:textColor="@color/white"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/roundedbuttonstylepopoup"
+                />
+
+        </LinearLayout>
+
+
+
+
+</LinearLayout>
+
+</LinearLayout>

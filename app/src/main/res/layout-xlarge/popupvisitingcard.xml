@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="720dp"
+    android:layout_height="730dp"
+    android:layout_gravity="center"
+    android:padding="5dp"
+    android:background="#8064ffda"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:theme="@style/NoActiobBar">
+
+    <TextView
+
+        android:id="@+id/textviewcloseid"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:textColor="@color/white"
+        android:text="X"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:layout_gravity="end"
+        android:gravity="center"
+        android:background="@drawable/popupclosebackground"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="280dp"
+            android:layout_height="280dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+
+            android:src="@drawable/ic_visit_cards"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="VISITING CARD"
+            android:textSize="45sp"
+            android:textColor="@color/white"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="25dp"
+            android:textStyle="bold"
+            />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="120dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@color/bluedark">
+
+            <Button
+                android:id="@+id/popupscanbuttonid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Scan"
+                android:textSize="45sp"
+                android:textColor="@color/white"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/roundedbuttonstylepopoup"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="120dp"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:background="@color/bluelight">
+
+            <Button
+                android:id="@+id/popupviewbuttonid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View"
+                android:textSize="45sp"
+                android:textColor="@color/white"
+                android:layout_gravity="center_horizontal"
+                android:background="@drawable/roundedbuttonstylepopoup"
+                />
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
